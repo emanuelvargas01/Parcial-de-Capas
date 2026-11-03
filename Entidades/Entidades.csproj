@@ -87,7 +87,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="E_Producto.cs" />
     <Compile Include="E_Usuario.cs" />
+    <Compile Include="IValidador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

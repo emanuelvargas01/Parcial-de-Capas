@@ -7,12 +7,12 @@ using MetroFramework.Forms;
 using MetroFramework;
 namespace Presentacion
 {
-    public class frmProductos: MetroForm
+    public class frmTest: MetroForm
     {
         private FontAwesome.Sharp.IconButton btnGuardar;
         private MetroFramework.Controls.MetroLabel lblTitulo;
 
-        public frmProductos()
+        public frmTest()
         {
             InitializeComponent();
             this.ShadowType = MetroFormShadowType.None;

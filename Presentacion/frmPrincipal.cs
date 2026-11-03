@@ -102,7 +102,7 @@ namespace Presentacion
             this.lblBienvenido.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lblBienvenido.Location = new System.Drawing.Point(12, 542);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(84, 19);
+            this.lblBienvenido.Size = new System.Drawing.Size(87, 20);
             this.lblBienvenido.TabIndex = 0;
             this.lblBienvenido.Text = "Bienvenido";
             // 
@@ -113,7 +113,7 @@ namespace Presentacion
             this.lblUsuario.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lblUsuario.Location = new System.Drawing.Point(124, 605);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(60, 19);
+            this.lblUsuario.Size = new System.Drawing.Size(63, 20);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -150,7 +150,7 @@ namespace Presentacion
             this.lblUserT.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lblUserT.Location = new System.Drawing.Point(124, 573);
             this.lblUserT.Name = "lblUserT";
-            this.lblUserT.Size = new System.Drawing.Size(60, 19);
+            this.lblUserT.Size = new System.Drawing.Size(63, 20);
             this.lblUserT.TabIndex = 9;
             this.lblUserT.Text = "Usuario";
             // 
@@ -302,7 +302,7 @@ namespace Presentacion
             this.lblFechaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaHora.Location = new System.Drawing.Point(610, 258);
             this.lblFechaHora.Name = "lblFechaHora";
-            this.lblFechaHora.Size = new System.Drawing.Size(64, 20);
+            this.lblFechaHora.Size = new System.Drawing.Size(80, 25);
             this.lblFechaHora.TabIndex = 9;
             this.lblFechaHora.Text = "FECHA";
             // 
@@ -430,7 +430,7 @@ namespace Presentacion
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(247, 253);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 26);
+            this.label2.Size = new System.Drawing.Size(335, 32);
             this.label2.TabIndex = 7;
             this.label2.Text = "Productos con bajo Stock";
             // 
@@ -440,7 +440,7 @@ namespace Presentacion
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(273, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 24);
+            this.label1.Size = new System.Drawing.Size(232, 29);
             this.label1.TabIndex = 6;
             this.label1.Text = "Sumario del sistema";
             // 
@@ -602,7 +602,7 @@ namespace Presentacion
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            frmProductos ventana = new frmProductos();
+            frmProducto ventana = new frmProducto();
             ventana.StartPosition = FormStartPosition.CenterScreen;
             ventana.WindowState = FormWindowState.Maximized;
             ventana.Show();

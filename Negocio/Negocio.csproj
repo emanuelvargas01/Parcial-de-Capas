@@ -92,6 +92,9 @@
     <Compile Include="IVerificarHashService.cs" />
     <Compile Include="N_Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validadores\ValidadorDecimal.cs" />
+    <Compile Include="Validadores\ValidadorEntero.cs" />
+    <Compile Include="Validadores\ValidadorTexto.cs" />
     <Compile Include="VerificarHashService.cs" />
   </ItemGroup>
   <ItemGroup>
