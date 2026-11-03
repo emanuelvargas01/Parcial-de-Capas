@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Datos
+{
+    public class D_Conexion
+    {
+        public static string CadenaConexion = "Server=localhost;Database=productosdb;Uid=root;Pwd=Em@xXD120105";
+    }
+}
