@@ -8,6 +8,6 @@ namespace Datos
 {
     public class D_Conexion
     {
-        public static string CadenaConexion = "Server=localhost;Database=productosdb;Uid=root;Pwd=Em@xXD120105";
+        public static string CadenaConexion = "Server=localhost;Database=productosdb;Uid=AppController;Pwd=Password";
     }
 }
