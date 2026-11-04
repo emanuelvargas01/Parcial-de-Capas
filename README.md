@@ -8,7 +8,7 @@ En este programa se realiza una pequeña aplicacion que cuenta con un Login util
 * **Lenguaje:** C#
 * **Entorno / Framework:** .NET FRAMEWORK
 * **IDE / Editor:** Visual Studio 2026
-* **Base de Datos: ** My SQL
+* **Base de Datos:**  My SQL
 * **Herramientas:** Git
 
 ## Capturas de Pantalla y Problemas
@@ -34,7 +34,51 @@ En este programa se realiza una pequeña aplicacion que cuenta con un Login util
 A continuación se presenta un esquema en árbol que explica de manera visual qué contiene el repositorio para facilitar la lectura del código:
 
 ```text
-
+.
+├── .gitattributes
+├── .gitignore
+├── Base de datos.txt
+├── Lab de Capas.slnx
+├── README.md
+├── productosdb_productos.sql
+├── productosdb_routines.sql
+├── productosdb_usuarios.sql
+├── Datos/
+│   ├── Properties/
+│   ├── D_Conexion.cs
+│   ├── D_Producto.cs
+│   ├── D_Usuario.cs
+│   ├── Datos.csproj
+│   ├── app.config
+│   └── packages.config
+├── Entidades/
+│   ├── Properties/
+│   ├── E_Producto.cs
+│   ├── E_Usuario.cs
+│   ├── Entidades.csproj
+│   ├── IValidador.cs
+│   ├── app.config
+│   └── packages.config
+├── Negocio/
+│   ├── Properties/
+│   ├── Validadores/
+│   ├── HashService.cs
+│   └── IHashService.cs
+└── Presentacion/
+    ├── Properties/
+    ├── Resources/
+    ├── Utilidades/
+    ├── App.config
+    ├── Presentacion.csproj
+    ├── Program.cs
+    ├── frmLogin.cs
+    ├── frmLogin.resx
+    ├── frmPrincipal.cs
+    ├── frmPrincipal.resx
+    ├── frmProducto.Designer.cs
+    ├── frmProducto.cs
+    ├── frmProducto.resx
+    └── packages.config
 
 ```
 ##Instrucciones de Ejecución / Uso
